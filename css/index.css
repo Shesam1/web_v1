@@ -1,0 +1,64 @@
+p{
+  font-size: 5em;
+  font-family: verdana;
+  color: white;
+  text-align: center;
+  padding-top: 5em;
+}
+#desc{
+  font-size: 20px;
+  font-family: arial;
+  color white;
+  text-shadow: 2px 2px #383d41;
+}
+p.small{
+  font-size: 20px;
+  padding-top: 1em;
+}
+p:hover{
+
+    color: #707273;
+
+    -webkit-transition: color 2s ease-out;
+    -moz-transition: color 2s ease-out;
+    -o-transition: color 2s ease-out;
+    -ms-transition: color 2s ease-out;
+    transition: color 2s ease-out;
+    }
+}
+.placement{
+  text-align: center;
+  color: white;
+}
+#one{
+  background-image: url("../images/beach.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1000px;
+}
+#two{
+  background-image: url("../images/tajmahal1.jpeg");
+  min-height: 1000px;
+  background-size: cover;
+  min-width: inherit;
+}
+#three{
+  background-image: url("../images/everest1.jpeg");
+  background-size: cover;
+  min-height: 1000px;
+}
+
+
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

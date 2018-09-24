@@ -1,0 +1,31 @@
+
+body h1{
+  color: white;
+  margin-left: 1em;
+}
+hr {
+    border: none;
+    height: 30em;
+    background-color: #333;
+}
+body{
+  background-image: url("../images/tajmahal1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cool_line{
+    display:block;
+    border:none;
+    color:white;
+    height:5px;
+    background:lightgray;
+    background: webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(lightgray), to(#fff));
+    max width: 20px
+}
+p{
+  color: white;
+}
+.container{
+  padding-left: 1em;
+
+}
